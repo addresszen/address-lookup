@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/addresszen/address-lookup/compare/1.0.1...1.0.2) (2022-03-22)
+
+
+### Bug Fixes
+
+* **Update:** Update Address Lookup to 3.0.1 ([a65340c](https://github.com/addresszen/address-lookup/commit/a65340c57a3872d3f09f32e00b94e7958f0e6fc6))
+* **Update:** Update Address Lookup to 3.0.1 ([487d069](https://github.com/addresszen/address-lookup/commit/487d069d3c80567f894e8957a17ffa9ceb5f9fe2))
+
 ## [1.0.1](https://github.com/addresszen/address-lookup/compare/1.0.0...1.0.1) (2022-03-11)
 
 
