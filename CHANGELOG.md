@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/addresszen/address-lookup/compare/1.0.2...1.1.0) (2022-04-04)
+
+
+### Features
+
+* **USA:** Resolve US formatted addresses ([567e58c](https://github.com/addresszen/address-lookup/commit/567e58c90fc3279516e899e0fc84f44f9988f945))
+
 ## [1.0.2](https://github.com/addresszen/address-lookup/compare/1.0.1...1.0.2) (2022-03-22)
 
 
