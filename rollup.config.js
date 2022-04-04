@@ -16,10 +16,10 @@ const input = "index.ts";
 
 const banner = `/**
  * @license
- * AddressZen <https://addresszen.com
+ * AddressZen <https://addresszen.com>
  * Copyright IDDQD Limited
  * Address Lookup ${version}
- * ${license} Lic
+ * ${license} Licence
  */`;
 
 // Configure terser to ignore build info banner
