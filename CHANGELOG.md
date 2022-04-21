@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/addresszen/address-lookup/compare/1.1.0...1.1.1) (2022-04-21)
+
+
+### Bug Fixes
+
+* **deps:** bump @ideal-postcodes/address-finder from 3.1.0-beta.1 to 3.1.0 ([#35](https://github.com/addresszen/address-lookup/issues/35)) ([3672b46](https://github.com/addresszen/address-lookup/commit/3672b46832adf13e2f7a58314af602ca399b98b8))
+
 # [1.1.0](https://github.com/addresszen/address-lookup/compare/1.0.2...1.1.0) (2022-04-04)
 
 
