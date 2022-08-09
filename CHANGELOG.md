@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/addresszen/address-lookup/compare/1.1.1...2.0.0) (2022-08-09)
+
+
+### Features
+
+* **Address Lookup:** Upgrade to v4 ([39067a3](https://github.com/addresszen/address-lookup/commit/39067a32df1bc430cf975a767c183d7c15ed9ab6))
+
+
+### BREAKING CHANGES
+
+* **Address Lookup:** - Country selection based on IP of user
+
 ## [1.1.1](https://github.com/addresszen/address-lookup/compare/1.1.0...1.1.1) (2022-04-21)
 
 
