@@ -1,15 +1,24 @@
-["ie11", "esm", "umd"].forEach((file) => {
+["esm", "umd"].forEach((file) => {
   describe(file.toLocaleUpperCase(), () => {
-    before(() => {
-      cy.setup(`./example/${file}.html`);
-      cy.wait(1000);
-    });
 
     beforeEach(() => {
+      cy.intercept({
+        hostname: "api.addresszen.com",
+        method: 'GET',
+        url: '/v1/keys/*',
+      }, (req) => {
+        expect(req.url).to.be.eq("https://api.addresszen.com/v1/keys/ak_inf");
+        req.continue();
+      }).as('apiCheck');
+      cy.setup(`./example/${file}.html`);
       cy.get("#line_1").clear({ force: true });
       cy.get("#line_2").clear({ force: true });
       cy.get("#post_town").clear({ force: true });
       cy.get("#postcode").clear({ force: true });
+      cy.wait("@apiCheck").then((interception) => {
+        expect(interception.response.statusCode).to.be.eq(200);
+        expect(interception.response.body.result.available).to.be.true;
+      });
     });
 
     describe("Address Lookup", () => {
@@ -29,7 +38,7 @@
       it("key select", () => {
         cy.get("#line_1")
           .clear({ force: true })
-          .type("L L Consultancy Ltd", { force: true });
+          .type("M L Roberts Ltd", { force: true });
         cy.wait(1000);
         cy.get("#line_1")
           .type("{downarrow}", { force: true })
