@@ -1,5 +1,3 @@
-import { Config } from "@ideal-postcodes/jsutil";
-
 declare global {
   namespace Cypress {
     interface Chainable {
@@ -17,7 +15,7 @@ declare global {
 Cypress.Commands.add("setup", (url) => {
   cy.visit(url, {
     onBeforeLoad: (window) => {
-      window.apiKey = Cypress.env("API_KEY") || "iddqd";
+      window.apiKey = Cypress.env("API_KEY") || "ak_test";
     },
   });
 });

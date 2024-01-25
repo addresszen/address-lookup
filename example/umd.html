@@ -55,8 +55,9 @@
     <input type="text" id="postcode" />
     <script>
       AddressZen.AddressLookup.setup({
-        apiKey: window.apiKey || "iddqd",
+        apiKey: window.apiKey,
         inputField: "#line_1",
+        detectCountry: false,
         outputFields: {
           line_1: "#line_1",
           line_2: "#line_2",
