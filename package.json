@@ -69,7 +69,7 @@
     "@open-wc/karma-esm": "~4.0.0",
     "@rollup/plugin-babel": "~5.3.0",
     "@rollup/plugin-commonjs": "~21.1.0",
-    "@rollup/plugin-inject": "~4.0.2",
+    "@rollup/plugin-inject": "~5.0.5",
     "@rollup/plugin-node-resolve": "~13.2.1",
     "@size-limit/preset-big-lib": "~4.9.2",
     "@types/mocha": "~9.1.0",
