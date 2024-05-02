@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/addresszen/address-lookup/compare/2.0.0...2.1.0) (2024-05-02)
+
+
+### Features
+
+* **Address Lookup:** Upgrade to 4.5.3 ([15a97af](https://github.com/addresszen/address-lookup/commit/15a97af9cb4d576ea178846cbb04cd454b6c4519))
+
 # [2.0.0](https://github.com/addresszen/address-lookup/compare/1.1.1...2.0.0) (2022-08-09)
 
 
