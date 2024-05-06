@@ -62,7 +62,7 @@
     "@rollup/plugin-inject": "~4.0.2",
     "@rollup/plugin-node-resolve": "~13.2.1",
     "@types/mocha": "~9.1.0",
-    "core-js": "~3.24.1",
+    "core-js": "~3.37.0",
     "core-js-pure": "~3.21.1",
     "cypress": "~13.6.3",
     "dotenv": "~16.0.0",
