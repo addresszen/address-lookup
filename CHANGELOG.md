@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/addresszen/address-lookup/compare/2.1.0...2.1.1) (2024-08-13)
+
+
+### Bug Fixes
+
+* **Dependences:** Update Address Finder ([a25e507](https://github.com/addresszen/address-lookup/commit/a25e50714873c07725830ac8dda5d6f456f6f83b))
+
 # [2.1.0](https://github.com/addresszen/address-lookup/compare/2.0.0...2.1.0) (2024-05-02)
 
 
