@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/addresszen/address-lookup/compare/2.1.1...2.1.2) (2024-08-13)
+
+
+### Bug Fixes
+
+* **Dependencies:** Update release ([3700649](https://github.com/addresszen/address-lookup/commit/3700649798715498987204632f15192a6af1376d))
+
 ## [2.1.1](https://github.com/addresszen/address-lookup/compare/2.1.0...2.1.1) (2024-08-13)
 
 
