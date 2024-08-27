@@ -1,16 +1,11 @@
 import babel from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import inject from "@rollup/plugin-inject";
 
-export const polyfills = {
-  Promise: "promise-polyfill",
-  Set: "core-js-pure/features/set",
-  "Object.assign": "core-js-pure/features/object/assign",
-};
-
-import { version, license } from "./package.json";
+import packageJson from "./package.json" with  { type: "json" };
+const { version, license } = packageJson;
+const targets = "last 2 versions";
 
 const input = "index.ts";
 
@@ -45,7 +40,6 @@ const include = [
   "node_modules/@ideal-postcodes/jsutil/esm/**",
   "node_modules/capitalise-post-town/dist/**",
   "node_modules/lodash/debounce.js",
-  "node_modules/core-js-pure/**/*",
 ];
 
 const context = "window";
@@ -115,14 +109,12 @@ export default [
         browser: true,
       }),
       commonjs(),
-      inject(polyfills),
       babel({
         babelrc: false,
-        ignore: [/core-js/],
         include,
         babelHelpers,
         sourceMap,
-        presets: [["@babel/preset-env", { targets: { ie: "11" } }]],
+        presets: [["@babel/preset-env", { targets }]],
       }),
       terser(terserConfig),
     ],
