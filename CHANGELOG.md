@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/addresszen/address-lookup/compare/2.1.2...2.1.3) (2024-08-27)
+
+
+### Bug Fixes
+
+* **address-finder:** BREAKING CHANGE: Drop IE11 support ([f41e011](https://github.com/addresszen/address-lookup/commit/f41e0116825653afe828cf852df2a2973b0fe077))
+
 ## [2.1.2](https://github.com/addresszen/address-lookup/compare/2.1.1...2.1.2) (2024-08-13)
 
 
