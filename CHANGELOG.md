@@ -1,3 +1,10 @@
+## [2.1.4](https://github.com/addresszen/address-lookup/compare/2.1.3...2.1.4) (2024-10-02)
+
+
+### Bug Fixes
+
+* **address-finder:** Update to latest ([af1ba82](https://github.com/addresszen/address-lookup/commit/af1ba82d3bda5a9899afcb1c694adb44af72236b))
+
 ## [2.1.3](https://github.com/addresszen/address-lookup/compare/2.1.2...2.1.3) (2024-08-27)
 
 
