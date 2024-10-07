@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/addresszen/address-lookup/compare/2.1.4...2.2.0) (2024-10-07)
+
+
+### Features
+
+* **address-finder:** Bump to version 5.1.0 of address-finder ([37a8de9](https://github.com/addresszen/address-lookup/commit/37a8de9496fa23bbf441d3656fa853c6cbfe6e94))
+
 ## [2.1.4](https://github.com/addresszen/address-lookup/compare/2.1.3...2.1.4) (2024-10-02)
 
 
