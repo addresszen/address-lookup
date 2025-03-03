@@ -1,3 +1,16 @@
+# [2.3.0](https://github.com/addresszen/address-lookup/compare/2.2.0...2.3.0) (2025-03-03)
+
+
+### Bug Fixes
+
+* **Release:** Fix release process ([1238232](https://github.com/addresszen/address-lookup/commit/12382326b96ec9ae5a1c0ca5da0d0eef4224e48c))
+
+
+### Features
+
+* **address-finder:** Bump to version 5.1.3 ([526fa68](https://github.com/addresszen/address-lookup/commit/526fa68d73e9e0c353bc2348ffd6446b95543f31))
+* **address-finder:** Update to version 5.2.0 ([1229ef2](https://github.com/addresszen/address-lookup/commit/1229ef26ef233dd2a42a40235a4585b96ed52985))
+
 # [2.2.0](https://github.com/addresszen/address-lookup/compare/2.1.4...2.2.0) (2024-10-07)
 
 
