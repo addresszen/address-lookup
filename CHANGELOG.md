@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/addresszen/address-lookup/compare/2.3.0...2.3.1) (2025-03-26)
+
+
+### Bug Fixes
+
+* **axios:** Security fix ([fefc35e](https://github.com/addresszen/address-lookup/commit/fefc35ead010228f960dfd73bec937346c8538de))
+
 # [2.3.0](https://github.com/addresszen/address-lookup/compare/2.2.0...2.3.0) (2025-03-03)
 
 
